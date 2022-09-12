@@ -1,0 +1,79 @@
+.container {
+    padding: 0 10rem;
+    padding-bottom: 10rem;
+}
+
+.lheading {
+    color: var(--color-xl-primary);
+    font-weight: 700;
+    font-size: var(--xl-heading);
+    font-family: var(--text-heading);
+}
+
+.heading {
+    font-family: var(--text-heading);
+    margin-top: 2rem;
+    font-size: var(--l-heading);
+    font-weight: var(--weight-heading);
+    color: var(--color-secondary);
+}
+
+.projectContainer {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgContainer {
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    align-self: stretch;
+    z-index: 1;
+    border: 10px solid var(--color-secondary);
+}
+
+.description {
+    width: 33.33%;
+}
+
+.descriptionHeading {
+    font-size: 1.5rem;
+    font-weight: var(--weight-button);
+    font-family: var(--text-button);
+    color: var(--color-secondary);
+}
+
+.descriptionPara {
+    margin-top: 1rem;
+    font-size: var(--para);
+    font-weight: var(--weight-para);
+    font-family: var(--text-para);
+    line-height: 35.5px;
+}
+
+.button {
+    margin-top: 1.5rem;
+    width: 25%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-secondary);
+    font-family: var(--text-button);
+    font-weight: var(--weight-button);
+    font-size: 1rem;
+    color: var(--color-primary);
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+
+}
+
+.button:hover {
+    scale: 1.1;
+    background-color: var(--color-tertiary);
+}
