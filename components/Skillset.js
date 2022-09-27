@@ -17,7 +17,7 @@ function Skillset() {
 
             <motion.div initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
                 viewport={{ once: true }}>
                 <h2 className={styles.heading}>Languages</h2>
                 <div className={styles.lGrid}>
@@ -31,7 +31,7 @@ function Skillset() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
                 viewport={{ once: true }}>
                 <h2 className={styles.heading}>Frontend Frameworks</h2>
                 <div className={styles.lGrid}>
@@ -42,7 +42,7 @@ function Skillset() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
                 viewport={{ once: true }}>
                 <h2 className={styles.heading}>Backend</h2>
                 <div className={styles.lGrid}>
@@ -53,7 +53,7 @@ function Skillset() {
 
             <motion.div initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
                 viewport={{ once: true }}>
                 <h2 className={styles.heading}>Database</h2>
                 <div className={styles.lGrid}>
@@ -64,7 +64,7 @@ function Skillset() {
 
             <motion.div initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
                 viewport={{ once: true }}>
                 <h2 className={styles.heading}>UI/UX</h2>
                 <div className={styles.lGrid}>

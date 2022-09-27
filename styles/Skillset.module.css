@@ -43,6 +43,14 @@
     justify-content: space-around;
 }
 
+.image {
+    transition: all ease-in-out 100ms;
+}
+
+.image:hover {
+    scale: 1.1
+}
+
 .round {
     outline: 2px solid blueviolet;
 }

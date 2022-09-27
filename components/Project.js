@@ -13,7 +13,7 @@ function Project() {
                 left: "-10rem"
             }}
                 initial={{ opacity: 0, x: -100 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                whileinview={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
                 viewport={{ once: false }}
                 className={styles.lheading}
