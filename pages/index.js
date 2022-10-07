@@ -5,7 +5,7 @@ import Skillset from "../components/Skillset";
 
 export default function Home() {
   return (
-    <div  >
+    <div>
       <About />
       <Skillset />
       <Project />

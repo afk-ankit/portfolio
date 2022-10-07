@@ -1,7 +1,10 @@
 import styles from '../styles/Projects.module.css'
 import { motion } from 'framer-motion'
 function GridProject({ title }) {
-    return (<motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ delay: 0.1, duration: 0.3 }} viewport={{ once: 'true' }}>
+    return (<motion.div initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        viewport={{ once: true }}>
         <h2 className={styles.heading}>{title}</h2>
 
         <div className={styles.projectContainer}>

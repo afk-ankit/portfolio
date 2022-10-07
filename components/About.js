@@ -6,17 +6,26 @@ function About() {
         <div className={style.heading} style={{
             position: 'relative',
             left: "-10rem"
-        }} initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}>ABOUT ME : {")"}</div>
+        }} >ABOUT ME : {")"}</div>
         <div className={style.mainContainer}>
-            <motion.div initial={{ opacity: 0, x: -100 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
-                <div className={style.main} >
+            <div   >
+                <motion.div className={style.main} initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.3, duration: 0.8 }}
+                    viewport={{ once: true }}  >
                     <p>Hey there, <br />I am <span className={style.red}>{"<Ankit/>"}</span><br />A Web Developer</p>
-                </div>
-                <div className={style.para}>
+                </motion.div>
+                <motion.div className={style.para} initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.6, duration: 0.8 }}
+                    viewport={{ once: true }} >
                     <p>I can help you make a beautiful and functional website
                         this and that and also a work place and turn them beautifiul and glowing art and of course a nice art to showcase to your users </p>
-                </div>
-                <motion.div className={style.buttonGroup} inital={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
+                </motion.div>
+                <motion.div className={style.buttonGroup} initial={{ opacity: 0, x: -100 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.9, duration: 0.8 }}
+                    viewport={{ once: true }} >
                     <div className={style.button}>
                         <p>CV</p>
                     </div>
@@ -24,8 +33,8 @@ function About() {
                         <p>Contact Me</p>
                     </div>
                 </motion.div>
-            </motion.div>
-            <motion.div className={style.img} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
+            </div>
+            <motion.div className={style.img} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.8 }}>
                 <div className={style.imgContainer}>
                     <img src="./my-img.jpg" alt="" />
                 </div>

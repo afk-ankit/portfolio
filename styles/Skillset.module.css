@@ -1,6 +1,8 @@
 .container {
     /* outline: 2px solid red; */
     width: 100vw;
+    margin: auto;
+    max-width: 2000px;
     min-height: 100vh;
     background-color: var(--color-secondary);
     font-family: var(--text-heading);
@@ -35,6 +37,7 @@
     font-family: var(--text-button);
     color: white;
     background-color: var(--color-primary);
+    border-radius: 1rem;
     font-size: var(--para);
     font-weight: var(--weight-heading);
     display: flex;
