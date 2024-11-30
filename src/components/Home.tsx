@@ -30,12 +30,12 @@ const Home = () => {
           Building <span className="font-bold text-white">Upesto.com</span>{" "}
           next-gen talent-hiring platform ✨
         </p>
-        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 font-semibold hidden">
+        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 font-semibold hidden md:block">
           Let's connect
         </button>
       </div>
-      <div className="md:flex-[0.4] space-y-8 h-96 mx-auto md:h-full">
-        <div className="aspect-square rounded-2xl overflow-hidden h-full">
+      <div className="md:flex-[0.4] space-y-8 mx-auto md:h-full">
+        <div className="aspect-square rounded-2xl overflow-hidden max-w-md">
           <img src="/dp.jpeg" alt="" />
         </div>
         <div className="flex justify-between h-[30px] w-1/2 mx-auto">
