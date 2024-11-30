@@ -8,10 +8,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Home = () => {
   return (
     <section
-      className="flex justify-between mt-28 gap-8 scroll-mt-40"
+      className="flex flex-col md:flex-row justify-between mt-28 gap-8 scroll-mt-40"
       id="home"
     >
-      <div className="flex-[0.6] flex flex-col">
+      <div className="md:flex-[0.6] flex flex-col">
         <h1 className="text-5xl font-bold leading-tight">
           Trust me, I&apos;m a{" "}
           <span className="text-accent">
@@ -30,12 +30,12 @@ const Home = () => {
           Building <span className="font-bold text-white">Upesto.com</span>{" "}
           next-gen talent-hiring platform ✨
         </p>
-        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 font-semibold">
+        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 font-semibold hidden">
           Let's connect
         </button>
       </div>
-      <div className="flex-[0.4] space-y-8">
-        <div className="aspect-square rounded-2xl overflow-hidden">
+      <div className="md:flex-[0.4] space-y-8 h-96 mx-auto md:h-full">
+        <div className="aspect-square rounded-2xl overflow-hidden h-full">
           <img src="/dp.jpeg" alt="" />
         </div>
         <div className="flex justify-between h-[30px] w-1/2 mx-auto">

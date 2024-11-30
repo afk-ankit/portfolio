@@ -5,7 +5,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <main className="p-8 container max-w-5xl mx-auto h-[200vh]">
+    <main className="p-8 max-w-5xl mx-auto h-[200vh] antialiased">
       <Navbar />
       <Home />
       <Work />
