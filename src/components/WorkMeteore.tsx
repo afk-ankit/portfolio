@@ -23,7 +23,7 @@ const WorkMeteore = () => {
   return (
     <div className="h-full border-l-[1px] w-0 border-zinc-800 relative">
       <motion.div
-        className="w-[1px] h-[60px] absolute -left-[0.6px] bg-gradient-to-b from-transparent via-accent to-transparent bg-no-repeat bg-full"
+        className="w-[1px] h-[60px] absolute  -left-[0.6px] bg-gradient-to-b from-transparent via-accent to-transparent bg-no-repeat bg-full"
         animate={controls}
       />
     </div>

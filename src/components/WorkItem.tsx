@@ -22,12 +22,9 @@ const WorkItem = ({
         changeHandler(work.id);
       }}
     >
-      <div className="w-[30px] h-[30px] rounded-full bg-zinc-800 overflow-hidden p-1">
+      <div className="w-[30px] h-[30px] rounded-full bg-white overflow-hidden p-1">
         {work.logo && (
-          <img
-            src={work.logo}
-            className="mix-blend-multiply w-full h-full object-contain"
-          />
+          <img src={work.logo} className="w-full h-full object-contain" />
         )}
       </div>
       <span>{work.company}</span>

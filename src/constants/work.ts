@@ -14,6 +14,7 @@ export const WORK_DESCRIPTIONS: IWork[] = [
   {
     id: 2,
     company: "Samtal.io",
+    logo: "/samtal_logo.png",
     location: "remote",
     jobRole: "Freelance Developer",
     joiningDate: new Date(2023, 11),

@@ -9,7 +9,7 @@ const Work = () => {
     setWork(id);
   };
   return (
-    <div className="mt-32">
+    <section className="mt-32 scroll-mt-32" id="work">
       <h1 className="text-3xl font-bold ">Work Experience</h1>
       <p className="text-zinc-400 mt-4">
         I switch a lot of companies. It's mostly about the culture.
@@ -28,7 +28,7 @@ const Work = () => {
         </div>
         <WorkDescription id={work} />
       </div>
-    </div>
+    </section>
   );
 };
 
