@@ -12,7 +12,9 @@ export const Navbar = () => {
       <a href="#work">
         <span className="text-sm cursor-pointer">Work</span>
       </a>
-      <span className="text-sm cursor-pointer">Projects</span>
+      <a href="#project">
+        <span className="text-sm cursor-pointer">Projects</span>
+      </a>
     </nav>
   );
 };

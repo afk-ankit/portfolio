@@ -3,17 +3,19 @@ import { WORK_DESCRIPTIONS } from "../constants/work";
 import WorkDescription from "./WorkDescription";
 import WorkItem from "./WorkItem";
 import WorkMeteore from "./WorkMeteore";
+import SectionDetails from "./SectionDetails";
+import SectionContainer from "./SectionContainer";
 const Work = () => {
   const [work, setWork] = useState(1);
   const handleWorkChange = (id: number) => {
     setWork(id);
   };
   return (
-    <section className="mt-32 scroll-mt-32" id="work">
-      <h1 className="text-3xl font-bold ">Work Experience</h1>
-      <p className="text-zinc-400 mt-4">
-        I switch a lot of companies. It's mostly about the culture.
-      </p>
+    <SectionContainer id="work">
+      <SectionDetails
+        title="Work Experience"
+        description="I switch a lot of companies. It's mostly about the culture."
+      />
       <div className="h-64 ml-32 mt-20 flex gap-8">
         <WorkMeteore />
         <div className="flex flex-col gap-4 self-center">
@@ -28,7 +30,7 @@ const Work = () => {
         </div>
         <WorkDescription id={work} />
       </div>
-    </section>
+    </SectionContainer>
   );
 };
 
