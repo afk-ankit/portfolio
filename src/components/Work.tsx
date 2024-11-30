@@ -2,6 +2,7 @@ import { useState } from "react";
 import { WORK_DESCRIPTIONS } from "../constants/work";
 import WorkDescription from "./WorkDescription";
 import WorkItem from "./WorkItem";
+import WorkMeteore from "./WorkMeteore";
 const Work = () => {
   const [work, setWork] = useState(1);
   const handleWorkChange = (id: number) => {
@@ -14,9 +15,7 @@ const Work = () => {
         I switch a lot of companies. It's mostly about the culture.
       </p>
       <div className="h-64 ml-32 mt-20 flex gap-8">
-        <div className="h-full border-l-[1px] w-0 border-zinc-800 relative">
-          <div className="w-[2px] h-[30px] bg-accent absolute top-5 -left-[0.6px]"></div>
-        </div>
+        <WorkMeteore />
         <div className="flex flex-col gap-4 self-center">
           {WORK_DESCRIPTIONS.map((item, key) => (
             <WorkItem
