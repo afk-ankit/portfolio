@@ -12,7 +12,7 @@ const Home = () => {
       id="home"
     >
       <div className="md:flex-[0.6] flex flex-col">
-        <h1 className="text-5xl font-bold">
+        <h1 className="md:text-5xl text-3xl font-bold">
           Trust me, I&apos;m a{" "}
           <span className="text-accent">
             software <br /> engineer.

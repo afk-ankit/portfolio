@@ -13,7 +13,11 @@ const ProjectItem = ({ project }: { project: IProject }) => {
   return (
     <div className="rounded-md bg-zinc-800 transition-transform overflow-hidden cursor-pointer flex flex-col w-[350px]">
       <div className="h-44 relative overflow-hidden">
-        <img src={project.logo} alt="" className="w-full object-contain" />
+        <img
+          src={project.logo}
+          alt=""
+          className="w-full object-contain object-top"
+        />
       </div>
       <div className="pt-8 px-4 space-y-4 flex-1">
         <h1 className="font-bold">{project.title}</h1>
