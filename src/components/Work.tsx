@@ -18,7 +18,7 @@ const Work = () => {
       />
       <div className="h-64 md:ml-32 mt-20 flex flex-col md:flex-row gap-8">
         <WorkMeteore />
-        <div className="flex flex-row md:flex-col gap-4 self-center">
+        <div className="flex flex-row flex-wrap md:flex-col gap-4 self-center">
           {WORK_DESCRIPTIONS.map((item, key) => (
             <WorkItem
               key={key}
