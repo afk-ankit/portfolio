@@ -12,13 +12,13 @@ const Home = () => {
       id="home"
     >
       <div className="md:flex-[0.6] flex flex-col">
-        <h1 className="text-5xl font-bold leading-tight">
+        <h1 className="text-5xl font-bold">
           Trust me, I&apos;m a{" "}
           <span className="text-accent">
             software <br /> engineer.
           </span>
         </h1>
-        <p className="text-zinc-400 mt-8">
+        <p className="text-zinc-400 mt-8 leading-normal">
           Meet Ankit Sharma, freelance web developer, and entrepreneur known for
           his expertise in the tech industry. He has successfully launched
           numerous technical courses on various platforms. Founder of Samtal.io,
@@ -30,8 +30,8 @@ const Home = () => {
           Building <span className="font-bold text-white">Upesto.com</span>{" "}
           next-gen talent-hiring platform ✨
         </p>
-        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 font-semibold hidden md:block">
-          Let's connect
+        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 hidden md:block">
+          <a href="mailto:ankitsharmagh093@gmail.com">Let's connect</a>
         </button>
       </div>
       <div className="md:flex-[0.4] space-y-8 mx-auto md:h-full">
@@ -39,9 +39,18 @@ const Home = () => {
           <img src="/dp.jpeg" alt="" />
         </div>
         <div className="flex justify-between h-[30px] w-1/2 mx-auto">
-          <FontAwesomeIcon icon={faTwitter} className="text-zinc-600" />
-          <FontAwesomeIcon icon={faGithub} className="text-zinc-600" />
-          <FontAwesomeIcon icon={faLinkedin} className="text-zinc-600" />
+          <a href="https://x.com/ankit6901sh" target="_blank">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="text-zinc-600 cursor-pointer"
+            />
+          </a>
+          <a href="https://github.com/afk-ankit">
+            <FontAwesomeIcon icon={faGithub} className="text-zinc-600" />
+          </a>
+          <a href="https://www.linkedin.com/in/ankit-sharma-0b0b9b223/">
+            <FontAwesomeIcon icon={faLinkedin} className="text-zinc-600" />
+          </a>
         </div>
       </div>
     </section>
