@@ -1,6 +1,7 @@
 import { WORK_DESCRIPTIONS } from "../constants/work";
 import WorkAchievements from "./WorkAchievements";
 import { motion } from "motion/react";
+import { format } from "date-fns";
 
 const WorkDescription = ({ id }: { id: number }) => {
   const description = WORK_DESCRIPTIONS[id - 1];
@@ -23,7 +24,12 @@ const WorkDescription = ({ id }: { id: number }) => {
           {description.jobRole}{" "}
           <span className="text-accent capitalize">@{description.company}</span>
         </h1>
-        <h3 className="text-sm text-zinc-400">Apr 2024 - Sep 2024</h3>
+        <h3 className="text-sm text-zinc-400">
+          {format(description.joiningDate, "MMMM yyyy")} -{" "}
+          {description.leavingDate
+            ? format(description.leavingDate, "MMMM yyyy")
+            : "currently working"}
+        </h3>
         <h3 className="text-sm text-zinc-400 capitalize">
           {description.location}
         </h3>

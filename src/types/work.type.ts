@@ -5,6 +5,6 @@ export type IWork = {
   logo?: string;
   jobRole: string;
   joiningDate: Date;
-  leavingDate: Date;
+  leavingDate?: Date;
   achievements: string[];
 };
