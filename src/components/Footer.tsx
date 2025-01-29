@@ -18,9 +18,18 @@ const Footer = () => {
           <span className="text-xl font-bold tracking-wide">Ankit Sharma</span>
         </div>
         <div className="flex justify-between px-4">
-          <FontAwesomeIcon icon={faTwitter} className="text-zinc-600" />
-          <FontAwesomeIcon icon={faGithub} className="text-zinc-600" />
-          <FontAwesomeIcon icon={faLinkedin} className="text-zinc-600" />
+          <a href="https://x.com/ankit6901sh" target="_blank">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="text-zinc-600 cursor-pointer"
+            />
+          </a>
+          <a href="https://github.com/afk-ankit">
+            <FontAwesomeIcon icon={faGithub} className="text-zinc-600" />
+          </a>
+          <a href="https://www.linkedin.com/in/ankit-sharma-0b0b9b223/">
+            <FontAwesomeIcon icon={faLinkedin} className="text-zinc-600" />
+          </a>
         </div>
       </div>
     </footer>
