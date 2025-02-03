@@ -5,7 +5,20 @@ export default {
     extend: {
       colors: {
         background: "black",
-        accent: "#bd1d1c",
+        accent: {
+          50: "#fef2f2",
+          100: "#fee2e2",
+          200: "#fecaca",
+          300: "#fca6a5",
+          400: "#f87271",
+          500: "#f04443",
+          600: "#dd2625",
+          700: "#bd1d1c",
+          800: "#991c1b",
+          900: "#7f1e1d",
+          950: "#450a0a",
+          DEFAULT: "#bd1d1c",
+        },
         secondary: "#03346E",
         primary: "white",
       },

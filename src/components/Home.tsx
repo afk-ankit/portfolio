@@ -30,26 +30,36 @@ const Home = () => {
           Building <span className="font-bold text-white">Upesto.com</span>{" "}
           next-gen talent-hiring platform ✨
         </p>
-        <button className="py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 hidden md:block">
+        <button className="transition-colors hover:bg-accent-800 py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 hidden md:block">
           <a href="mailto:ankitsharmagh093@gmail.com">Let's connect</a>
         </button>
       </div>
       <div className="md:flex-[0.4] space-y-8 mx-auto md:h-full">
-        <div className="aspect-square rounded-2xl overflow-hidden max-w-md">
-          <img src="/dp.jpeg" alt="" />
+        <div className="rounded-2xl overflow-hidden max-w-md">
+          <img
+            src="/dp-2.jpg"
+            alt=""
+            className="aspect-square object-cover object-bottom"
+          />
         </div>
         <div className="flex justify-between h-[30px] w-1/2 mx-auto">
           <a href="https://x.com/ankit6901sh" target="_blank">
             <FontAwesomeIcon
               icon={faTwitter}
-              className="text-zinc-600 cursor-pointer"
+              className="text-zinc-600 cursor-pointer hover:text-accent "
             />
           </a>
           <a href="https://github.com/afk-ankit">
-            <FontAwesomeIcon icon={faGithub} className="text-zinc-600" />
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="text-zinc-600 cursor-pointer hover:text-accent "
+            />
           </a>
           <a href="https://www.linkedin.com/in/ankit-sharma-0b0b9b223/">
-            <FontAwesomeIcon icon={faLinkedin} className="text-zinc-600" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="text-zinc-600 cursor-pointer hover:text-accent "
+            />
           </a>
         </div>
       </div>
