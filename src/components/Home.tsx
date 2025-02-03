@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Home = () => {
   return (
     <section
-      className="flex flex-col md:flex-row justify-between mt-28 gap-8 scroll-mt-40"
+      className="flex flex-col md:flex-row justify-between md:mt-28 mt-12 gap-8 scroll-mt-40"
       id="home"
     >
       <div className="md:flex-[0.6] flex flex-col">
