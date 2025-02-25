@@ -19,16 +19,16 @@ const Home = () => {
           </span>
         </h1>
         <p className="text-zinc-400 mt-8 leading-normal">
-          Meet Ankit Sharma, freelance web developer, and entrepreneur known for
-          his expertise in the tech industry. He has successfully launched
-          numerous technical courses on various platforms. Founder of Samtal.io,
-          white-labeled Social Media to help businesses connect their employees
-          globally.
+          Meet Ankit a full-stack developer who turns caffeine into clean,
+          scalable code. From crafting slick frontends to building rock-solid
+          backends, he thrives on solving complex problems and making the web a
+          better place one bug fix at a time. If you need someone who can juggle
+          APIs, databases, and the occasional existential crisis about
+          semicolons, he’s your person!
         </p>
         <span className="text-sm text-zinc-600 mt-3">~ ChatGPT</span>
         <p className="text-zinc-400 mt-8">
-          Building <span className="font-bold text-white">Upesto.com</span>{" "}
-          next-gen talent-hiring platform ✨
+          Breaking production so you don’t have to! 🐛
         </p>
         <button className="transition-colors hover:bg-accent-800 py-2 px-6 bg-accent w-fit rounded-md cursor-pointer mt-8 hidden md:block">
           <a href="mailto:ankitsharmagh093@gmail.com">Let's connect</a>
