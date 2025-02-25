@@ -11,7 +11,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 const ProjectItem = ({ project }: { project: IProject }) => {
   return (
-    <div className="rounded-md bg-zinc-800 transition-transform overflow-hidden cursor-pointer flex flex-col w-[350px]">
+    <div className="rounded-md bg-zinc-800 transition-transform overflow-hidden cursor-pointer flex flex-col max-w-[350px]">
       <div className="h-44 relative overflow-hidden">
         <img
           src={project.logo}

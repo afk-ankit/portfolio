@@ -10,7 +10,7 @@ const Project = () => {
         title="Projects"
         description="Explore a selection of courses designed to help you enhance your skills."
       />
-      <div className="flex md:flex-row flex-col md:grid-cols-2 mx-auto mt-12 gap-8 w-fit">
+      <div className="flex md:flex-row flex-col mx-auto w-fit md:grid-cols-3 mt-12 gap-4 md:grid xl:grid-cols-3">
         {PROJECTS.map((item, key) => (
           <ProjectItem key={key} project={item} />
         ))}
