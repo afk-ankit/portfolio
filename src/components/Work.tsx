@@ -14,7 +14,7 @@ const Work = () => {
     <SectionContainer id="work">
       <SectionDetails
         title="Work Experience"
-        description="I switch a lot of companies. It's mostly about the culture."
+        description="I love them all. It's mostly about the culture."
       />
       <div className="h-64 md:ml-32 mt-20 flex flex-col md:flex-row gap-8">
         <WorkMeteore />
