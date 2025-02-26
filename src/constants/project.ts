@@ -2,27 +2,38 @@ import { IProject } from "../types/project.type";
 
 export const PROJECTS: IProject[] = [
   {
-    title: "Samtal.io",
-    logo: "/samtal_project.png",
-    description:
-      "samtal.io is a white-labelled employee engagement platform Create a FullStack Twitter Clone that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users.",
-  },
-  {
     title: "Upesto.com",
     logo: "/upesto_project.png",
+    link: "https://upestov2.solytech.in",
     description:
-      "upesto.io is a freelancer hiring platform Create a FullStack Twitter Clone that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users.",
+      "Upesto is a freelancer hiring platform with Jira-like project management, real-time chat, and seamless collaboration tools. It simplifies hiring, task management, and team communication in one place.",
   },
   {
     title: "Watchnow.in",
     logo: "/watch_now_project.png",
+    link: "https://watchnow.avocadorable.in",
     description:
-      "upesto.io is a freelancer hiring platform Create a FullStack Twitter Clone that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users.",
+      "WatchNow is a React-based movie discovery platform that leverages the IMDB API to offer personalized recommendations, helping users find trending films, classics, and hidden gems.",
+  },
+  {
+    title: "Waitlist.biz",
+    logo: "/waitlist_project.png",
+    link: "https://app.gohighlevel.com/integration/67ae150b365d032764d62876",
+    description:
+      "Watilist is a restaurant waitlist integration built on GoHighLevel CRM, offering features like guest messaging, notifications, and seamless reservation management to enhance customer experience.",
+  },
+  {
+    title: "Samtal.io",
+    logo: "/samtal_project.png",
+    link: "https://samtal.io",
+    description:
+      "Samtal is a white-labeled employee engagement platform with HRIS-based onboarding, smart grouping, and real-time chat. It enables teams to share posts, announcements, and updates, fostering seamless communication.",
   },
   {
     title: "RapidResume.in",
     logo: "/rapid_resume_project.png",
+    link: "https://rapidresume.avocadorable.in",
     description:
-      "upesto.io is a freelancer hiring platform Create a FullStack Twitter Clone that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users.",
+      "Rapid Resume is a React-based resume builder that helps users create professional resumes effortlessly with prebuilt templates, customizable sections, and an intuitive interface.",
   },
 ];
