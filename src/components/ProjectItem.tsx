@@ -17,7 +17,7 @@ const ProjectItem = ({ project }: { project: IProject }) => {
           <img
             src={project.logo}
             alt=""
-            className="w-full object-cover h-full object-left"
+            className="w-full object-cover h-full object-left-top "
           />
         </div>
         <div className="pt-8 px-4 space-y-4 flex-1">
