@@ -1,17 +1,10 @@
+import { BiLogoPostgresql } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { IProject } from "../types/project.type";
-import {
-  TbBrandMysql,
-  TbBrandNextjs,
-  TbBrandTypescript,
-  TbBrandVite,
-} from "react-icons/tb";
 import {
   SiApachekafka,
   SiExpress,
   SiFormik,
   SiMaterialdesign,
-  SiMaterialdesignicons,
   SiNestjs,
   SiReactquery,
   SiRedis,
@@ -19,8 +12,13 @@ import {
   SiSocketdotio,
   SiSupabase,
 } from "react-icons/si";
-import { DiPostgresql } from "react-icons/di";
-import { BiLogoPostgresql } from "react-icons/bi";
+import {
+  TbBrandMysql,
+  TbBrandNextjs,
+  TbBrandTypescript,
+  TbBrandVite,
+} from "react-icons/tb";
+import { IProject } from "../types/project.type";
 
 export const PROJECTS: IProject[] = [
   {
