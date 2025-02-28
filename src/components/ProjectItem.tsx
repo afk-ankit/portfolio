@@ -18,17 +18,9 @@ const ProjectItem = ({ project }: { project: IProject }) => {
           </p>
         </div>
         <div className="flex gap-2 py-8 px-4">
-          {project.logos.map((Item) => (
-            <Item className="text-zinc-400" />
+          {project.logos.map((Item, key) => (
+            <Item className="text-zinc-400" key={key} />
           ))}
-          {/* <TbBrandNextjs className="text-zinc-400" /> */}
-          {/* <RiTailwindCssFill className="text-zinc-400" /> */}
-          {/* <SiNestjs className="text-zinc-400" /> */}
-          {/* <TbBrandTypescript className="text-zinc-400" /> */}
-          {/* <SiApachekafka className="text-zinc-400" /> */}
-          {/* <SiRedis className="text-zinc-400" /> */}
-          {/* <BiLogoPostgresql className="text-zinc-400" /> */}
-          {/* <SiSocketdotio className="text-zinc-400" /> */}
         </div>
       </a>
     </div>
