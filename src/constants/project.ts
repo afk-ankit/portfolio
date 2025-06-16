@@ -24,7 +24,7 @@ export const PROJECTS: IProject[] = [
   {
     title: "Upesto.com",
     logo: "/upesto_project.png",
-    link: "https://upestov2.solytech.in",
+    link: "https://upesto.com",
     description:
       "Upesto is a freelancer hiring platform with Jira-like project management, real-time chat, and seamless collaboration tools. It simplifies hiring, task management, and team communication in one place.",
     logos: [
